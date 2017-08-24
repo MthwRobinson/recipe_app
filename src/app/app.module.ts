@@ -17,6 +17,7 @@ import { RecipeDetailComponent } from './recipe_book/recipe-detail/recipe-detail
     HeaderComponent,
     ShoppingListComponent,
     ShoppingListEditComponent,
+    RecipeBookComponent,
     RecipeListComponent,
     RecipeItemComponent,
     RecipeDetailComponent
