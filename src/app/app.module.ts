@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ShoppingListComponent } from './shopping_list/shopping-list.component';
 import { ShoppingListEditComponent } from './shopping_list/shopping-list-edit/shopping-list-edit.component';
+import { ShoppingListService } from './shopping_list/shopping-list.service';
 import { RecipeBookComponent } from './recipe_book/recipe-book.component';
 import { RecipeListComponent } from './recipe_book/recipe-list/recipe-list.component';
 import { RecipeItemComponent } from './recipe_book/recipe-item/recipe-item.component';
@@ -28,7 +29,7 @@ import { DropdownDirective } from './shared/dropdown.directive';
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ShoppingListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
